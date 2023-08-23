@@ -1,0 +1,8 @@
+package copiadora.copy;
+
+public class Xerox extends Copiadora {
+	public void xerox() {
+		System.out.println("Tirando Xerox");
+	}
+
+}

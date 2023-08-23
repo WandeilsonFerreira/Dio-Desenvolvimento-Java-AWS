@@ -1,0 +1,57 @@
+package lanchonete.atendimento.cozinha;
+
+import lanchonete.atendimento.Atendente;
+
+public class Cozinheiro {
+	public void adicionarLancheNoBalcao() {
+			System.out.println("Adicionar Lanche natural ");
+	}
+	
+	public void adicionarSucoNoBalcao() {
+		System.out.println("Adicionar suco natural ");
+}	
+	public void adicionarComboNoBalcao() {
+		adicionarLancheNoBalcao();
+		adicionarSucoNoBalcao(); 
+}
+	public void prepararLanche() {
+		System.out.println("Preparar lanche tipo 01");
+}
+	
+	public void prepararVitamina() {
+		System.out.println("Preparar Vitamina");		
+}
+
+	public void prepararCombo() {
+		prepararLanche();
+		prepararVitamina();
+}
+	public void selecionarIngredientesLanch() {
+		System.out.println("Selecionar o pão, salada especial");
+}	
+	public void selecionarIngredientesVitamina() {
+		System.out.println("Selecionar frutas");
+}
+	public void lavarIngrediente() {
+		System.out.println("Lavando ingrediente");
+}
+	public void baterVitamina() {
+		System.out.println("Batendo vitamina");
+}
+	public void fritarIngredienteLanche() {
+		System.out.println("Fritando ingrediente");
+}
+	/*public void pedirParaTrocarGas(Atendente meuAmigo) {	
+		meuAmigo.trocarGas();
+}*/
+	public void pedirParaTrocarGas(Almoxarife meuAmigo) {	
+		meuAmigo.trocarGas();
+}
+	public void pedirIngredientes(Almoxarife almoxarife) {	
+		almoxarife.entregarIngrediente();
+}
+
+
+
+
+}

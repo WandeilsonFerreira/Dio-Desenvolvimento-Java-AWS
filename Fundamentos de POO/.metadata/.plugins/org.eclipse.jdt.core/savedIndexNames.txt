@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/home/wferreira/trilha-java-basico/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+2334110545.index
+159685674.index
+2635771045.index
+2645856864.index
+1106964925.index
+3677827944.index

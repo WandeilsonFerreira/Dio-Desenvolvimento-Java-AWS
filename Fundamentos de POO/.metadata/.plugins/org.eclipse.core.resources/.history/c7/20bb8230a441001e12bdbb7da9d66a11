@@ -1,0 +1,8 @@
+package impressora;
+
+public class Laserjet extends Impressora{
+	public void laser() {
+		System.out.println("Imprimindo");
+	}
+
+}

@@ -1,0 +1,8 @@
+package impressora;
+
+public class Deskjet extends Impressora{
+	public void deskjet() {
+		System.out.println("Imprimindo");
+	}
+
+}

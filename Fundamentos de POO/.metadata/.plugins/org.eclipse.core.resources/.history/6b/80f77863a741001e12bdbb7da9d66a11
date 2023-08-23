@@ -1,0 +1,8 @@
+package equipamentos.multifuncional;
+
+public class EquipamentoMultifuncional {
+		public void multifuncional() {
+			System.out.println("Equipamento multifuncional");
+		}
+
+}

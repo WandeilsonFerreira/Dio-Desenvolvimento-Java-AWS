@@ -1,0 +1,16 @@
+package lanchonete;
+
+public class Almoxarife {
+	public void controlarEntrada() {
+		System.out.println("Controlar entrada de pessoal");
+	}
+	public void controlarSaida() {
+		System.out.println("Controlar saída de pessoal");
+	}	
+	public void entregarIngrediente() {
+		System.out.println("Controlar entrada de pessoal");
+	}
+
+
+
+}
