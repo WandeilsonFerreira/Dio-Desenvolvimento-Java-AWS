@@ -6,7 +6,7 @@
 - Classes
 - Pacotes
 - Visibilidade dos recursos
--Getter e Setters
+- Getter e Setters
 - Construtores
 - Enums
 - UML
